@@ -3,7 +3,7 @@ from tkinter import *
 
 def button_clicked():
     answer = float(value.get())
-    result.config(text=round(answer * 1.609, 2))
+    result.config(text=round(answer * 1.60934, 2))
 
 
 # Window
